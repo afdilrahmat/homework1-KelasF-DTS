@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,24 +26,24 @@
         </div>
     <!-- akhir about me -->
 
-    <a href="https://www.instagram.com/afdilrahmat04/">Follow instagramku yuk!</a>
-
-    <br>
-    <br>
-
     <!-- portfolio -->
+    <div class=portfolio>
+      <h2>Portfolio</h2>
+    </div>
     <div class="flex-contailner">
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/UcRjuX8BAp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <!-- Memasukan video Youtube-->
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/o48zFA1IA0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+      <ul>
+        <li>
+          <iframe width="480" height="280" src="https://www.youtube.com/embed/UcRjuX8BAp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        <!-- Memasukan video Youtube-->
+        </li>
+        <li>
+          <iframe width="480" height="280" src="https://www.youtube.com/embed/o48zFA1IA0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </li>
+      </ul>
     </div>
     <!-- akhir portfolio -->
 
     <!-- contact -->
-        <div class="cantact">
+        <div class="contact">
           <div class="row">
             <div class="col-sm-12 text-center">
               <h2>Contact</h2>
@@ -74,12 +75,38 @@
                   <label for="pesan">Pesan</label>
                   <textarea class="form-control" rows="10" placeholder="masukkan pesan"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                <div clas="message">
+                  <span class="btn message">Kirim</span>
+                </div>
               </form>
             </div>
           </div>
         </div>
-      <!-- akhir contact -->
+        <br>
+        <br>
+        <!-- akhir contact -->
+
+        <!--footer-->
+        <footer>
+          <div class="lesson">
+            <a href="https://www.linkedin.com/in/afdil-rahmat-131282204/">
+              <img src="img/linkedin.png" alt="" width="25" height="25">
+            </a>
+          </div>
+          <div class="lesson">
+            <a href="https://www.instagram.com/afdilrahmat04/">
+              <img src="img/IG.png" alt="" width="25" height="25">
+              </a>
+          </div>
+          <div class="lesson">
+            <a href="https://www.facebook.com/afdilrabun/">
+              <img src="img/facebook.png" alt="" width="25" height="25">
+            </a>
+          </div>
+          <br>
+          <br>
+          <p class="cr">Copyright @2021</p>
+        </footer>
       
 </body>
 
