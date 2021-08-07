@@ -1,0 +1,33 @@
+body {
+    align-items: center;
+}
+
+.foto img {
+    border-radius: 50%;
+    position: center;
+}
+
+.foto h1, h3 {
+    text-align: center;
+}
+
+
+.aboutme {
+    text-align: left;
+}
+
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+}
+
+.flex-container div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: blue;
+}
