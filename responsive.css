@@ -9,4 +9,15 @@
         width: 100%;
     }
 }
- 
+
+@media (max-width: 1000px) {
+    .iframe {
+        width: 50%;
+    }
+}
+  
+@media (max-width: 670px) {
+    .iframe {
+        width: 100%;
+    }
+}
